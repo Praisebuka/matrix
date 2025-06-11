@@ -11,7 +11,7 @@
                     <a href="#about" class="nav__link"> About </a>
                 </li>
                 <li class="nav__item">
-                    <a href="#discover" class="nav__link"> Our Services </a>
+                    <a href="#services" class="nav__link"> Our Services </a>
                 </li>
                 <li class="nav__item">
                     <a href="#place" class="nav__link">  Contact Us </a>
