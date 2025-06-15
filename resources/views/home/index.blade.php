@@ -34,7 +34,7 @@
                         </div>
 
                         <div class="home__info-overlay">
-                            <img src="{{ asset('assets/img/home2.jpg') }}" alt="" class="home__info-img">
+                            <img src="{{ asset('assets/img/hero/suited-candidates.jpeg') }}" alt="" class="home__info-img">
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
 
                     <div class="about__img">
                         <div class="about__img-overlay">
-                            <img src="{{ asset('assets/img/about1.jpg') }}" alt="" class="about__img-one">
+                            <img src="{{ asset('assets/img/hero/singlelady_with_report.png') }}" alt="" class="about__img-one">
                         </div>
 
                         <div class="about__img-overlay">
@@ -80,7 +80,7 @@
 
                         <!--==================== DISCOVER 2 ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="{{ asset('assets/img/discover2.jpg') }}" alt="" class="discover__img">
+                            <img src="{{ asset('assets/img/hero/whitelady_on_desk.png') }}" alt="" class="discover__img">
                             <div class="discover__data">
                                 <h2 class="discover__title"> Permanent Recruitment </h2>
                                 <span class="discover__description"> We help you find the right candidates for long-term success. </span>
@@ -89,7 +89,7 @@
 
                         <!--==================== DISCOVER 3 ====================-->
                         <div class="discover__card swiper-slide">
-                            <img src="{{ asset('assets/img/discover4.jpg') }}" alt="" class="discover__img">
+                            <img src="{{ asset('assets/img/hero/indianguy_inshop.jpeg') }}" alt="" class="discover__img">
                             <div class="discover__data">
                                 <h2 class="discover__title"> Temporary Staffing </h2>
                                 <span class="discover__description"> Need help for a day, a week, or a month? We provide vetted, trained staff on demand. </span>
@@ -124,11 +124,11 @@
 
                     <div class="experience__img grid">
                         <div class="experience__overlay">
-                            <img src="{{ asset('assets/img/experience1.jpg') }}" alt="" class="experience__img-one">
+                            <img src="{{ asset('assets/img/hero/whiteguy_with_desk.jpeg') }}" alt="" class="experience__img-one">
                         </div>
                         
                         <div class="experience__overlay">
-                            <img src="{{ asset('assets/img/experience2.jpg') }}" alt="" class="experience__img-two">
+                            <img src="{{ asset('assets/img/hero/woman_on_desk.jpeg') }}" alt="" class="experience__img-two">
                         </div>
                     </div>
                 </div>
