@@ -1,0 +1,52 @@
+@extends('home.layouts.home')
+
+    @section('homeContent')
+        <main class="main">
+
+            <section class="home" style="margin-top: 5rem">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.731914655285!2d-0.012299723695918554!3d51.543434408070716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d65a5966ee5%3A0x566617b4d56aabce!2sThe%20Arcade%2C%20Westfield%20stratford%20city%2C%20London%20E20%201EL%2C%20UK!5e1!3m2!1sen!2sng!4v1750108409749!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+            <!--==================== Contact Us ====================-->
+            <section class="contact section" id="contact">
+                <div class="contact__container">
+                    <div class="contact__data">
+                        <h2 class="section__title contact__title"> Contact </h2>
+                        <div class="contact__description">
+                            LOCATION: <p> 107-109 the arcade, Stratford London. </p>
+                        </div>
+                        
+                        <p class="contact__description">
+                            SUPPORT: <p> +234-074-634-01030 </p>
+                        </p>
+                    </div>
+
+                    <form action="#" method="POST">
+                        @csrf
+                    </form>
+                </div>
+            </section>
+            
+            <!--==================== VIDEO ====================-->
+            <section class="video section" style="display: none">
+                <h2 class="section__title"> Video Explanation </h2>
+
+                <div class="video__container container">
+                    <p class="video__description"> Find out more with our video of the most us
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    @endsection

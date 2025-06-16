@@ -447,6 +447,28 @@ input {
   transform: var(--img-scale);
 }
 
+.aboutus {
+  div.about__img {
+    div {
+      img {
+        &:first-child {
+          width: 300px;
+        }
+      }
+    }
+  } 
+}
+
+/*=============== Contact ===============*/
+.contact {
+  /* .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
+  
+}
+
 /*=============== DISCOVER ===============*/
 .discover__card {
   position: relative;
@@ -935,6 +957,7 @@ input {
   .about__description {
     margin-bottom: var(--mb-2);
   }
+
   .discover__container {
     width: 610px;
     margin-left: auto;
@@ -1072,6 +1095,14 @@ input {
   .place__card {
     height: auto;
     width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .aboutus {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 

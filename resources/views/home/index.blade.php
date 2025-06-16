@@ -48,7 +48,7 @@
                         <p class="about__description">
                             At Matrix-recruitment limited, we specialize in supplying high-quality, ready-to-work staff to businesses across London. Whether you're facing unexpected absences or long-term staffing gaps, we respond quickly with skilled professionals who get the job done.
                         </p>
-                        <a href="#" class="button"> More about Us? </a>
+                        <a href="{{ route('about us') }}" class="button"> More about Us? </a>
                     </div>
 
                     <div class="about__img">
