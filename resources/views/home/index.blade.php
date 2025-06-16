@@ -134,6 +134,132 @@
                 </div>
             </section>
 
+            <!--==================== VIDEO ====================-->
+            <section class="video section" style="display: none">
+                <h2 class="section__title"> Video Explanation </h2>
+
+                <div class="video__container container">
+                    <p class="video__description"> Find out more with our video of the most us
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title"> Meet Our Experts – The People Behind MRL </h2>
+
+                <div class="place__container container grid">
+                    <div class="place__card">
+                        <img src="{{ asset('assets/img/the_team/md_portrait.jpeg') }}" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <span class="place__rating-number"> MRL </span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title"> Tolulope Akinwumi </h3>
+                                <span class="place__subtitle"> Founder & Director </span>
+                                <span class="place__price"> A visionary leader with a strong background in healthcare and social work, Tolulope brings deep industry knowledge and a relentless drive to uplift both clients and candidates. </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="place__card">
+                        <img src="{{ asset('assets/img/the_team/woman_with_coffee.jpeg') }}" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <span class="place__rating-number"> Google </span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title"> Olivia Mensah </h3>
+                                <span class="place__subtitle"> Senior Talent Partner </span>
+                                <span class="place__price"> With over a decade in talent acquisition, Olivia specialises in placing healthcare and administrative professionals with precision and care. </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="place__card">
+                        <img src="{{ asset('assets/img/the_team/co-employee.jpeg') }}" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <span class="place__rating-number"> MRL </span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title"> James Edwards </h3>
+                                <span class="place__subtitle"> Compliance Manager </span>
+                                <span class="place__price"> James ensures all recruitment practices meet the highest regulatory standards, safeguarding trust and reliability in every placement. </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="place__card">
+                        <img src="{{ asset('assets/img/the_team/praise_njoga.jpg') }}" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <span class="place__rating-number"> HipheDavids </span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title"> Praise Njoga </h3>
+                                <span class="place__subtitle"> IT Manager </span>
+                                <span class="place__price"> Always up for new challenges, Praise stays ahead of the curve by keeping up with the latest tech trends and best practices in both software development and cybersecurity. </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="place__card">
+                        <img src="{{ asset('assets/img/the_team/co-employee-female-2.png') }}" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <span class="place__rating-number"> MRL </span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title"> Aisha Thompson </h3>
+                                <span class="place__subtitle"> Client Relations Lead </span>
+                                <span class="place__price"> Aisha bridges the gap between clients and candidates with clear communication and relationship-building that drives retention and satisfaction. </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="{{ asset('assets/img/the_team/ceo_portrait.png') }}" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <span class="place__rating-number"> MRL </span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title"> Daniel Nwosu </h3>
+                                <span class="place__subtitle"> Operations Coordinator </span>
+                                <span class="place__price"> Daniel keeps the wheels turning behind the scenes, streamlining processes to ensure every recruitment journey is seamless and efficient. </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
             <!--==================== SUBSCRIBE ====================-->
             <section class="subscribe section">
                 <div class="subscribe__bg">
