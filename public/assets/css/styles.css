@@ -460,12 +460,33 @@ input {
 }
 
 /*=============== Contact ===============*/
-.contact {
-  /* .contact__container {
+.contactus {
+  form {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-  } */
+    .all-data {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      div {
+        margin-bottom: 1rem;
+        label {
+
+        }
+        input {
+          border: none;
+          padding: 10px;
+          border-radius: 10px;
+          width: 100%;
+        }
+      }
+    }
+    button {
+      padding: 15px;
+      border-radius: 10px;
+      border: none;
+    }
+  }
   
 }
 

@@ -8,11 +8,11 @@
             </section>
 
             <!--==================== Contact Us ====================-->
-            <section class="contact section" id="contact">
-                <div class="contact__container">
-                    <div class="contact__data">
-                        <h2 class="section__title contact__title"> Contact </h2>
-                        <div class="contact__description">
+            <section class="about section" id="contact">
+                <div class="about__container container grid contactus">
+                    <div class="about__data">
+                        <h2 class="section__title about__title"> Contact </h2>
+                         <div class="contact__description">
                             LOCATION: <p> 107-109 the arcade, Stratford London. </p>
                         </div>
                         
@@ -21,9 +21,48 @@
                         </p>
                     </div>
 
-                    <form action="#" method="POST">
-                        @csrf
-                    </form>
+                    <div class="about__img">
+                        <form action="#" method="POST">
+                            @csrf
+
+                            <h2 class="section__title about__title"> Quick Contact Form </h2>
+
+                            <div class="all-data">
+                                <div class="contact__description">
+                                    <label for="firstname"> First Name</label>
+                                    <input type="text" name="firstname" id="firstname">
+                                </div>
+
+                                <div class="contact__description">
+                                    <label for="lastname"> Last Name</label>
+                                    <input type="text" name="lastname">
+                                </div>
+
+                                <div class="contact__description">
+                                    <label for="business_name"> Business Name </label>
+                                    <input type="text" name="business_name">
+                                </div>
+
+                                <div class="contact__description">
+                                    <label for="type_of_staff"> Type of Staff Needed </label>
+                                    <input type="text" name="type_of_staff">
+                                </div>
+
+                                <div class="contact__description">
+                                    <label for="start_date"> Start Date </label>
+                                    <input type="date" name="start_date">
+                                </div>
+                            
+                                <div class="contact__description">
+                                    <label for="message"> Message </label>
+                                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                                </div>
+                            </div>
+                            
+                            <button type="submit"> Submit Request </button>
+                            
+                        </form>
+                    </div>
                 </div>
             </section>
             
