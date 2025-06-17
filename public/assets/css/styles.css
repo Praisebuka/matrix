@@ -1134,6 +1134,19 @@ input {
     display: flex;
     flex-direction: column-reverse;
   }
+
+  .contactus {
+    flex-direction: column;
+    h2 {
+      &:first-child {
+        text-align: left;
+      }
+    }
+    div.contact__description {
+      display: flex;
+      gap: 2rem;
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {

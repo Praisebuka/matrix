@@ -17,9 +17,9 @@
                         </div>
                         
                         <br> <br>
-                        <p class="contact__description">
+                        <div class="contact__description">
                             SUPPORT: <p> +234-074-634-01030 </p>
-                        </p>
+                        </div>
                     </div>
 
                     <div class="about__img">
