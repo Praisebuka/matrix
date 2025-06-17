@@ -24,5 +24,23 @@ Route::middleware('auth')->group(function () {
 
 Route::get('/about', [HomeController::class, 'aboutUs'])->name('about us');
 Route::get('/contact', [HomeController::class, 'contactUs'])->name('contact us');
+Route::post('/submit-message', [HomeController::class, 'submitMessage'])->name('submit message');
+
+Route::get('/email-testing', function () {
+    $data = (object)[
+        'firstname' => 'Praise',
+        'lastname' => 'Ebuka',
+        'email' => 'test@example.com',
+        'message' => 'Hello, I am testing the view.'
+    ];
+
+    if (request()->query('send') == 'true') {
+        Mail::to('praise.njoga@gmail.com')->send(new SendQuickMSG($data));
+    }
+
+    return (new SendQuickMSG($data))->render();
+});
+
+
 
 require __DIR__.'/auth.php';
