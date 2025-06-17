@@ -33,6 +33,9 @@ Route::get('/email-testing', function () {
         'firstname' => 'Praise',
         'lastname' => 'Ebuka',
         'email' => 'test@example.com',
+        'business_name' => 'checkers ltd',
+        'type_of_staff' => 'One solid strengthed guy',
+        'start_date' => '3rd of July 2025',
         'message' => 'Hello, I am testing the view.'
     ];
 
