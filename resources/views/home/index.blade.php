@@ -29,7 +29,7 @@
                     <div class="home__info">
                         <div>
                             <span class="home__info-title"> 3 suited advocate just for you </span>
-                            <a href="" class="button button--flex button--link home__info-button"> More <i class="ri-arrow-right-line"></i>
+                            <a href="{{ route('contact us') }}" class="button button--flex button--link home__info-button"> More <i class="ri-arrow-right-line"></i>
                             </a>
                         </div>
 
