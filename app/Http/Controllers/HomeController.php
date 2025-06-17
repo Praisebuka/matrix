@@ -37,7 +37,6 @@ class HomeController extends Controller
 
     public function submitMessage(Request $req)
     {
-        // dd($req->all());
 
         try{ 
 
@@ -57,23 +56,12 @@ class HomeController extends Controller
                         if ($date->lt(Carbon::now()->addDays(3))) {
                             $fail('The start date must be at least 3-7 days from today.');
                         }
-                        // if ($date->lt(Carbon::now()->addDays(7))) {
-                        //     $fail('The start date cannot be more than 7 days from today.');
-                        // }
                     },
                 ],
                 'message' => 'nullable|string',
             ]);
 
             $message = SendQuickMessage::create($validatedData);
-
-            # Send email to CEO and CC the customer
-            // Mail::send('emails.send_quick_message', ['data' => $message], function ($mail) use ($message) {
-            //     $mail->to('praise.njoga@gmail.com')
-            //         ->cc($message->email)
-            //         ->subject('Matrix Recruitment - Quick Contact Form Submission');
-            // });
-
             Mail::to('praise.njoga@gmail.com')->cc($message->email)->send(new SendQuickMSG($message));
 
             return redirect()->back()->with('success', 'Thank you for reaching out to us, your message has been sent and we will be in touch!');
