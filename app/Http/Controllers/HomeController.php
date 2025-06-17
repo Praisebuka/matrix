@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SendQuickMSG;
+use App\Models\SendQuickMessage;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -30,4 +34,55 @@ class HomeController extends Controller
         return view('home.contactus')->with(['url' => $this->getUrlEndSideParam()]);
     }
     
+
+    public function submitMessage(Request $req)
+    {
+        // dd($req->all());
+
+        try{ 
+
+            $req->merge([
+                'start_date' => Carbon::parse($req->start_date)->format('Y-m-d')
+            ]);
+
+            $validatedData = $req->validate([
+                'firstname' => 'required|string|max:255',
+                'lastname' => 'required|string|max:255',
+                'email' => 'required|email|unique:send_quick_messages,email',
+                'business_name' => 'required|string|max:255',
+                'type_of_staff' => 'required|string|max:255',
+                'start_date' => [ 'required', 'date',
+                    function ($attribute, $value, $fail) {
+                        $date = Carbon::parse($value);
+                        if ($date->lt(Carbon::now()->addDays(3))) {
+                            $fail('The start date must be at least 3-7 days from today.');
+                        }
+                        // if ($date->lt(Carbon::now()->addDays(7))) {
+                        //     $fail('The start date cannot be more than 7 days from today.');
+                        // }
+                    },
+                ],
+                'message' => 'nullable|string',
+            ]);
+
+            $message = SendQuickMessage::create($validatedData);
+
+            # Send email to CEO and CC the customer
+            // Mail::send('emails.send_quick_message', ['data' => $message], function ($mail) use ($message) {
+            //     $mail->to('praise.njoga@gmail.com')
+            //         ->cc($message->email)
+            //         ->subject('Matrix Recruitment - Quick Contact Form Submission');
+            // });
+
+            Mail::to('praise.njoga@gmail.com')->cc($message->email)->send(new SendQuickMSG($message));
+
+            return redirect()->back()->with('success', 'Thank you for reaching out to us, your message has been sent and we will be in touch!');
+        
+        } catch (\Throwable $th) {
+            return redirect()->back()->with('resp', [ 'icon' => 'error', 'title' => 'Error', 'text' => $th->getMessage(), ]);
+        }
+
+    }
+
+
 }
