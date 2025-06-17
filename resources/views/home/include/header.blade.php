@@ -1,22 +1,54 @@
 <header class="header" id="header">
     <nav class="nav container">
-        <a href="#" class="nav__logo"> Matrix Recruitment </a>
+        <a href="{{ route('Home') }}" class="nav__logo"> Matrix Recruitment </a>
 
         <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#home" class="nav__link active-link"> Home </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#about" class="nav__link"> About </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#services" class="nav__link"> Our Services </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#place" class="nav__link">  Contact Us </a>
-                </li>
-            </ul>
+            @if ($url === 'about')
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="{{ route('Home') }}" class="nav__link"> Home </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link active-link"> About </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/#services" class="nav__link"> Our Services </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="{{ route('contact us') }}" class="nav__link">  Contact Us </a>
+                    </li>
+                </ul>
+            @elseif ($url === 'contact')
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="{{ route('Home') }}" class="nav__link"> Home </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="{{ route('about us') }}" class="nav__link"> About </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/#services" class="nav__link"> Our Services </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link active-link">  Contact Us </a>
+                    </li>
+                </ul>
+            @else
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link"> Home </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link"> About </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link"> Our Services </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="{{ route('contact us') }}" class="nav__link">  Contact Us </a>
+                    </li>
+                </ul>
+            @endif
 
             <div class="nav__dark">
                 <!-- Theme change button -->
