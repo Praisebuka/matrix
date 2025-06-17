@@ -31,32 +31,32 @@
                             <div class="all-data">
                                 <div class="contact__description">
                                     <label for="firstname"> First Name</label>
-                                    <input type="text" name="firstname" id="firstname">
+                                    <input type="text" name="firstname" id="firstname" required>
                                 </div>
 
                                 <div class="contact__description">
                                     <label for="lastname"> Last Name</label>
-                                    <input type="text" name="lastname">
+                                    <input type="text" name="lastname" required>
                                 </div>
 
                                 <div class="contact__description">
                                     <label for="business_name"> Business Name </label>
-                                    <input type="text" name="business_name">
+                                    <input type="text" name="business_name" required>
                                 </div>
 
                                 <div class="contact__description">
                                     <label for="type_of_staff"> Type of Staff Needed </label>
-                                    <input type="text" name="type_of_staff">
+                                    <input type="text" name="type_of_staff" required>
                                 </div>
 
                                 <div class="contact__description">
                                     <label for="start_date"> Start Date </label>
-                                    <input type="date" name="start_date">
+                                    <input type="date" name="start_date" required>
                                 </div>
                             
                                 <div class="contact__description">
                                     <label for="message"> Message </label>
-                                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                                    <textarea name="message" id="" cols="30" rows="10" required></textarea>
                                 </div>
                             </div>
 
