@@ -16,6 +16,7 @@
                             LOCATION: <p> 107-109 the arcade, Stratford London. </p>
                         </div>
                         
+                        <br> <br>
                         <p class="contact__description">
                             SUPPORT: <p> +234-074-634-01030 </p>
                         </p>
@@ -58,7 +59,7 @@
                                     <textarea name="message" id="" cols="30" rows="10"></textarea>
                                 </div>
                             </div>
-                            
+
                             <button type="submit"> Submit Request </button>
                             
                         </form>

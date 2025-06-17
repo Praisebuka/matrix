@@ -461,6 +461,9 @@ input {
 
 /*=============== Contact ===============*/
 .contactus {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start !important;
   form {
     display: flex;
     flex-direction: column;
@@ -470,11 +473,11 @@ input {
       gap: 2rem;
       div {
         margin-bottom: 1rem;
-        label {
-
-        }
-        input {
-          border: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        input, textarea {
+          border: 1px solid var(--first-color);
           padding: 10px;
           border-radius: 10px;
           width: 100%;
@@ -485,6 +488,9 @@ input {
       padding: 15px;
       border-radius: 10px;
       border: none;
+      margin-top: 10px;
+      background-color: blue;
+      color: #FFF;
     }
   }
   
