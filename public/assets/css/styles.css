@@ -482,6 +482,9 @@ input {
           border-radius: 10px;
           width: 100%;
         }
+        textarea {
+          width: 200%;
+        }
       }
     }
     button {

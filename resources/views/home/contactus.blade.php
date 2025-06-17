@@ -23,7 +23,7 @@
                     </div>
 
                     <div class="about__img">
-                        <form action="#" method="POST">
+                        <form action="{{ route('submit message') }}" method="POST">
                             @csrf
 
                             <h2 class="section__title about__title"> Quick Contact Form </h2>
@@ -37,6 +37,11 @@
                                 <div class="contact__description">
                                     <label for="lastname"> Last Name</label>
                                     <input type="text" name="lastname" required>
+                                </div>
+
+                                <div class="contact__description">
+                                    <label for="lastname"> Email Address </label>
+                                    <input type="email" name="email" required>
                                 </div>
 
                                 <div class="contact__description">
@@ -56,7 +61,7 @@
                             
                                 <div class="contact__description">
                                     <label for="message"> Message </label>
-                                    <textarea name="message" id="" cols="30" rows="10" required></textarea>
+                                    <textarea name="message" id="" cols="30" rows="10"></textarea>
                                 </div>
                             </div>
 
