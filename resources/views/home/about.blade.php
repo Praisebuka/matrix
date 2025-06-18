@@ -9,7 +9,7 @@
                     <div class="about__data">
                         <h2 class="section__title about__title"> Who Are We </h2>
                         <p class="about__description">
-                            At Matrix-recruitment limited, we specialize in supplying high-quality, ready-to-work staff to businesses across London. Whether you're facing unexpected absences or long-term staffing gaps, we respond quickly with skilled professionals who get the job done.
+                            At MRL, we specialise in delivering high-quality, fully vetted healthcare professionals to a wide range of healthcare providers across the UK. From NHS trusts and private hospitals to residential care homes, supported living services, mental health units, and domiciliary care providers, we supply the right staff to meet your unique service needs.
                         </p>
 
                         <br>

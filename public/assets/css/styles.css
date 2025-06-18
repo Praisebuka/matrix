@@ -540,6 +540,22 @@ input {
   background-image: none;
 }
 
+.also__includes {
+  padding: 40px;
+  margin-top: 1rem;
+  h4 {
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+  ul {
+    list-style: unset;
+    li {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+
 /*=============== EXPERIENCE ===============*/
 .experience__container {
   row-gap: 2.5rem;

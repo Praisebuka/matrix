@@ -46,7 +46,7 @@
                     <div class="about__data">
                         <h2 class="section__title about__title"> Who Are We </h2>
                         <p class="about__description">
-                            At Matrix-recruitment limited, we specialize in supplying high-quality, ready-to-work staff to businesses across London. Whether you're facing unexpected absences or long-term staffing gaps, we respond quickly with skilled professionals who get the job done.
+                            At MRL, we specialise in delivering high-quality, fully vetted healthcare professionals to a wide range of healthcare providers across the UK. From NHS trusts and private hospitals to residential care homes, supported living services, mental health units, and domiciliary care providers, we supply the right staff to meet your unique service needs.
                         </p>
                         <a href="{{ route('about us') }}" class="button"> More about Us? </a>
                     </div>
@@ -65,7 +65,7 @@
             
             <!--==================== DISCOVER ====================-->
             <section class="discover section" id="services">
-                <h2 class="section__title">  Our Services </h2>
+                <h2 class="section__title">  Our Services Covers </h2>
                 
                 <div class="discover__container container swiper-container">
                     <div class="swiper-wrapper">
@@ -97,6 +97,19 @@
                         </div>
                         
                     </div>
+                </div>
+
+                <div class="container also__includes">
+                    <h4 class="section__title"> Also Includes: </h4>
+                    <ul>
+                        <li> <p> Hospitals (NHS & Private) </p> </li>
+                        <li> <p> Care Homes (Elderly, Dementia, and Nursing) </p> </li>
+                        <li> <p> Supported Living and Learning Disabilities Services </p> </li>
+                        <li> <p> Mental Health Facilities </p> </li>
+                        <li> <p> Home Care / Domiciliary Services </p> </li>
+                        <li> <p> GP Practices & Clinics </p> </li>
+                        <li> <p> Community Health Services </p> </li>
+                    </ul>
                 </div>
             </section>
 
