@@ -10,7 +10,7 @@
                         <i class="ri-facebook-box-fill"></i>
                     </a>
                     <a href="https://twitter.com/" target="_blank" class="footer__social">
-                        <i class="ri-twitter-fill"></i>
+                        <i class="fab fa-x-twitter"></i>
                     </a>
                     <a href="https://www.instagram.com/" target="_blank" class="footer__social">
                         <i class="ri-instagram-fill"></i>
@@ -58,7 +58,7 @@
                         <a href="#" class="footer__link" title="Coming Soon :)"> FAQs </a>
                     </li>
                     <li class="footer__item">
-                        <a href="mailto:hr@matrixrecruitment.org" class="footer__link"> Support Center </a>
+                        <a href="mailto:support@matrixrecruitment.org" class="footer__link"> Support Center </a>
                     </li>
                     <li class="footer__item">
                         <a href="{{ route('contact us') }}" class="footer__link"> Contact Us </a>

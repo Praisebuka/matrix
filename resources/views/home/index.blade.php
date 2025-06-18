@@ -22,7 +22,7 @@
                             <i class="ri-instagram-fill"></i>
                         </a>
                         <a href="https://twitter.com/" target="_blank" class="home__social-link">
-                            <i class="ri-twitter-fill"></i>
+                            <i class="fab fa-x-twitter"></i>
                         </a>
                     </div>
 
@@ -120,13 +120,13 @@
                 <div class="experience__container container grid">
                     <div class="experience__content grid">
                         <div class="experience__data">
-                            <h2 class="experience__number"> Top </h2>
-                            <span class="experience__description"> Industry-Specific <br> Expertise </span>
+                            <h2 class="experience__number"> Fully </h2>
+                            <span class="experience__description"> Compliant and <br> Ready-to-Work Staff </span>
                         </div>
 
                         <div class="experience__data">
-                            <h2 class="experience__number"> 95% </h2>
-                            <span class="experience__description"> Fast, Reliable <br> Staffing Solutions </span>
+                            <h2 class="experience__number"> 24/7 </h2>
+                            <span class="experience__description">  Support System <br> With Rapid Response  </span>
                         </div>
 
                         <div class="experience__data">

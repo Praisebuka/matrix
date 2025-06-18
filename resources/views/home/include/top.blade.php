@@ -18,6 +18,9 @@
         <meta name="description" content="Struggling With Staff Shortages? We Deliver Trusted Talent — Fast. We are the recruitment solution you've been looking for in London."/>
 
         <title> Welcome To Matrix Recruitment </title>
+
+        {{-- Font Awesome Icon --}}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         
     </head>
     
