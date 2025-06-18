@@ -226,7 +226,7 @@
 
                     
                     <div class="place__card">
-                        <img src="{{ asset('assets/img/the_team/co-employee-female-2.png') }}" alt="" class="place__img">
+                        <img src="{{ asset('assets/img/the_team/aisha_thompson_portrail.jpg') }}" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
@@ -250,7 +250,7 @@
                             </span>
 
                             <div class="place__data">
-                                <h3 class="place__title"> Daniel Nwosu </h3>
+                                <h3 class="place__title"> Rebecca Clinton </h3>
                                 <span class="place__subtitle"> Operations Coordinator </span>
                                 <span class="place__price"> Daniel keeps the wheels turning behind the scenes, streamlining processes to ensure every recruitment journey is seamless and efficient. </span>
                             </div>

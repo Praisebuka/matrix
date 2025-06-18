@@ -22,7 +22,7 @@
 
                     <div class="about__img">
                         <div class="about__img-overlay">
-                            <img src="{{ asset('assets/img/the_team/md_portrait.jpeg') }}" alt="" class="about__img-one">
+                            <img src="{{ asset('assets/img/the_team/md_real_portrait.jpg') }}" alt="" class="about__img-one">
                         </div>
 
                         <div class="about__img-overlay">
