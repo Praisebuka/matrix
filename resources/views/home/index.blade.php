@@ -154,13 +154,13 @@
                 </div>
             </section>
 
-            <!--==================== PLACES ====================-->
+            <!--==================== Our Experts ====================-->
             <section class="place section" id="place">
                 <h2 class="section__title"> Meet Our Experts – The People Behind MRL </h2>
 
                 <div class="place__container container grid">
                     <div class="place__card">
-                        <img src="{{ asset('assets/img/the_team/md_portrait.jpeg') }}" alt="" class="place__img">
+                        <img src="{{ asset('assets/img/the_team/md_real_portrait.jpg') }}" alt="" class="place__img">
                         
                         <div class="place__content">
                             <span class="place__rating">
