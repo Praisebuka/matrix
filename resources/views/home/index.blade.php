@@ -18,10 +18,10 @@
                         <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
                             <i class="ri-facebook-box-fill"></i>
                         </a>
-                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        <a href="https://www.instagram.com/matrixrecruitmentagency" target="_blank" class="home__social-link">
                             <i class="ri-instagram-fill"></i>
                         </a>
-                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                        <a href="https://x.com/matixltd" target="_blank" class="home__social-link">
                             <i class="fab fa-x-twitter"></i>
                         </a>
                     </div>

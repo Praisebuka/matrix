@@ -9,10 +9,10 @@
                     <a href="https://www.facebook.com/" target="_blank" class="footer__social">
                         <i class="ri-facebook-box-fill"></i>
                     </a>
-                    <a href="https://twitter.com/" target="_blank" class="footer__social">
+                    <a href="https://x.com/matixltd" target="_blank" class="footer__social">
                         <i class="fab fa-x-twitter"></i>
                     </a>
-                    <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                    <a href="https://www.instagram.com/matrixrecruitmentagency" target="_blank" class="footer__social">
                         <i class="ri-instagram-fill"></i>
                     </a>
                     <a href="https://www.youtube.com/" target="_blank" class="footer__social">
