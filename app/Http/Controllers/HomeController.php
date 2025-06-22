@@ -62,7 +62,8 @@ class HomeController extends Controller
             ]);
 
             $message = SendQuickMessage::create($validatedData);
-            Mail::to('info@matrixrecruitment.org')->cc($message->email)->send(new SendQuickMSG($message));
+            Mail::to('info@matrixrecruitment.org')->send(new SendQuickMSG($message));
+            // Mail::to('info@matrixrecruitment.org')->cc($message->email)->send(new SendQuickMSG($message));
 
             return redirect()->back()->with('success', 'Thank you for reaching out to us, your message has been sent and we will be in touch!');
         
