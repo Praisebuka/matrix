@@ -4,65 +4,67 @@
         <main class="main">
             <!--==================== FAQ ====================-->
             <section class="discover section faq" id="faq">
-                <h2 class="section__title">  Frequently Asked Questions </h2>
+                <h2 class="section__title">  Frequently Asked Questions (FAQ) </h2>
 
                 <div class="container also__includes">
                     <ol>
-                        <li> 
+                        <ul> 
                             <h4 class="section__title"> For Employers / Clients </h4>
-                            <div>
+                            <li>
                                 <h6> What types of staff do you provide? </h6>
                                 <p> We supply qualified and vetted professionals for healthcare, social care, administrative, and support roles—both temporary and permanent. We tailor recruitment to your organisation’s needs. </p>
-                            </div>
+                            </li>
 
-                            <div>
+                            <li>
                                 <h6> How quickly can you fill a vacancy? </h6>
                                 <p> We offer same-day and next-day staffing for urgent needs. Our responsive 24/7 booking team ensures minimal disruption to your service. </p>
-                            </div>
+                            </li>
 
-                            <div>
+                            <li>
                                 <h6> Are your staff fully vetted? </h6>
                                 <p> Yes. All our staff go through a rigorous compliance process including DBS checks, reference verification, right-to-work clearance, and up-to-date training. </p>
-                            </div>
+                            </li>
 
-                            <div> 
+                            <li> 
                                 <h6> What are your rates? </h6>
                                 <p> Our pricing is highly competitive—up to 20% lower than standard agency rates. We also offer bespoke packages to suit your budget and staffing needs. </p>
-                            </div>
+                            </li>
 
-                            <div> 
+                            <li> 
                                 <h6> Can we request the same staff regularly? </h6>
                                 <p> Absolutely. We encourage continuity and will do our best to allocate familiar staff to your service whenever possible. </p>
-                            </div>
-                        </li>
+                            </li>
+                        </ul>
 
-                        <li>
+                        <br> <br>
+
+                        <ul>
                             <h4 class="section__title"> For Job Seekers / Candidates </h4>
-                            <div>
+                            <li>
                                 <h6> What types of roles do you offer? </h6>
                                 <p> We recruit for a wide range of positions in healthcare, social care, admin, and support—covering temporary, contract, and permanent roles. </p>
-                            </div>
+                            </li>
 
-                            <div>
+                            <li>
                                 <h6> How do I register with Matrix Recruitment? </h6>
                                 <p> Simply fill out our online application form or contact our team. We’ll guide you through our onboarding and compliance process step-by-step. </p>
-                            </div>
+                            </li>
 
-                            <div> 
+                            <li> 
                                 <h6> Do you charge candidates any fees? </h6>
                                 <p> No, we never charge candidates for our recruitment services. Our support is free and focused on helping you succeed. </p>
-                            </div>
+                            </li>
 
-                            <div>
+                            <li>
                                 <h6> Can I choose my shifts or workdays? </h6>
                                 <p> Yes, we offer flexible shift patterns. You can pick the days and hours that suit your availability. </p>
-                            </div>
+                            </li>
 
-                            <div>
+                            <li>
                                 <h6> Do you provide training or CPD? </h6>
                                 <p> We support continuous professional development by offering mandatory training and signposting CPD opportunities through our partners. </p>
-                            </div>
-                        </li>
+                            </li>
+                        </ul>
                     </ol>
                 </div>
             </section>
