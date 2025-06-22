@@ -55,7 +55,7 @@
                 <h3 class="footer__subtitle"> Support </h3>
                 <ul>
                     <li class="footer__item">
-                        <a href="#" class="footer__link" title="Coming Soon :)"> FAQs </a>
+                        <a href="{{ route('faq') }}" class="footer__link"> FAQs </a>
                     </li>
                     <li class="footer__item">
                         <a href="mailto:support@matrixrecruitment.org" class="footer__link"> Support Center </a>

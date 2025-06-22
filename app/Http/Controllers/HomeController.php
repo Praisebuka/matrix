@@ -73,5 +73,12 @@ class HomeController extends Controller
 
     }
 
+    
+    public function faq()
+    {
+
+        return view('home.faq')->with(['url' => $this->getUrlEndSideParam()]);
+    }
+
 
 }

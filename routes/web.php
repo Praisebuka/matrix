@@ -46,6 +46,7 @@ Route::get('/email-testing', function () {
     return (new SendQuickMSG($data))->render();
 });
 
+Route::get('/faq', [HomeController::class, 'faq'])->name('faq');
 
 
 require __DIR__.'/auth.php';
