@@ -33,16 +33,31 @@
                         <a href="#contact" class="nav__link active-link">  Contact Us </a>
                     </li>
                 </ul>
+            @elseif ($url === 'faq')
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="{{ route('Home') }}" class="nav__link"> Home </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/#about" class="nav__link"> About </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/#services" class="nav__link"> Our Services </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="{{ route('contact us') }}" class="nav__link">  Contact Us </a>
+                    </li>
+                </ul>
             @else
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link"> Home </a>
+                        <a href="{{ route('Home') }}" class="nav__link active-link"> Home </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link"> About </a>
+                        <a href="/#about" class="nav__link"> About </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#services" class="nav__link"> Our Services </a>
+                        <a href="/#services" class="nav__link"> Our Services </a>
                     </li>
                     <li class="nav__item">
                         <a href="{{ route('contact us') }}" class="nav__link">  Contact Us </a>
