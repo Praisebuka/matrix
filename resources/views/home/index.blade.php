@@ -182,7 +182,7 @@
 
                             <div class="place__data">
                                 <h3 class="place__title"> Tolulope Akinwumi </h3>
-                                <span class="place__subtitle"> Founder & Director </span>
+                                <span class="place__subtitle"> Founder/CEO </span>
                                 <span class="place__price"> A visionary leader with a strong background in healthcare and social work, Tolulope brings deep industry knowledge and a relentless drive to uplift both clients and candidates. </span>
                             </div>
                         </div>
