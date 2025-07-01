@@ -92,5 +92,11 @@ class HomeController extends Controller
         return view('home.privacy_policy')->with(['url' => $this->getUrlEndSideParam()]);
     }
 
+    public function partners()
+    {
+
+        return view('home.partners')->with(['url' => $this->getUrlEndSideParam()]);
+    }
+
 
 }

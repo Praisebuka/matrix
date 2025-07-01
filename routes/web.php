@@ -49,6 +49,7 @@ Route::get('/email-testing', function () {
 Route::get('/faq', [HomeController::class, 'faq'])->name('faq');
 Route::get('/terms', [HomeController::class, 'termsAndCondition'])->name('terms and conditions');
 Route::get('/privacy', [HomeController::class, 'privacyAndPolicy'])->name('privacy and policy');
+Route::get('/partners', [HomeController::class, 'partners'])->name('become a partner');
 
 
 require __DIR__.'/auth.php';

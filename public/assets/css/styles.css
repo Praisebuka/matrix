@@ -661,6 +661,26 @@ section.privacy {
 }
 
 
+
+
+/* Partners */
+section.partners {
+  div {
+    ol {
+      list-style: none;
+      ul {
+        list-style: disc;
+        li {
+          h6 {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+
 /*=============== EXPERIENCE ===============*/
 .experience__container {
   row-gap: 2.5rem;

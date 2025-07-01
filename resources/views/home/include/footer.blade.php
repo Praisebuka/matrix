@@ -46,7 +46,7 @@
                         <a href="{{ route('contact us') }}" class="footer__link"> Plan & Pricing </a>
                     </li>
                     <li class="footer__item">
-                        <a href="{{ route('contact us') }}" class="footer__link"> Become a Partner </a>
+                        <a href="{{ route('become a partner') }}" class="footer__link"> Become a Partner </a>
                     </li>
                 </ul>
             </div>
