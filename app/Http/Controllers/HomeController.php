@@ -84,6 +84,12 @@ class HomeController extends Controller
     {
 
         return view('home.terms_and_conditions')->with(['url' => $this->getUrlEndSideParam()]);
+    } 
+
+    public function privacyAndPolicy()
+    {
+
+        return view('home.privacy_policy')->with(['url' => $this->getUrlEndSideParam()]);
     }
 
 

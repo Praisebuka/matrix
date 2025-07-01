@@ -71,7 +71,7 @@
             <p class="footer__copy">&#169; 2025 Matrix Recruitment. All rigths reserved. </p>
             <div class="footer__terms">
                 <a href="{{ route('terms and conditions') }}" class="footer__terms-link"> Terms & Conditions </a>
-                <a href="#" class="footer__terms-link" title="Coming Soon"> Privacy Policy </a>
+                <a href="{{ route('privacy and policy') }}" class="footer__terms-link"> Privacy Policy </a>
             </div>
         </div>
     </div>
