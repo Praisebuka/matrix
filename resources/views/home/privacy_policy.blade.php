@@ -6,78 +6,118 @@
             <section class="discover section privacy" id="privacy">
                 <h2 class="section__title">  Privacy & Policy </h2>
 
-                <div class="container the__terms__also">
+                <div class="container privacy__also">
 
-                    <h5> Welcome to Matrix Recruitment Limited. </h5>  <br>
-                    <h5> These Terms and Conditions govern your use of our website and services. By using our website or engaging our services, you agree to be bound by these terms. </h5>
-
-                    <br> <br>
                     <ol>
                         <ul> 
                             <li>
-                                <h6> Definition </h6>
-                                <p> <b> Our Clients </b>: Any business or individual engaging Matrix Recruitment Limited to recruit staff. </p>
-                                <p> <b> Our Candidates </b>: Any person using our services to find employment or temporary assignments. </p>
-                                <p> <b> Our Website Users </b>: Any person accessing or browsing our website. </p>
-                                <p> <b> Our Services </b>: Recruitment, staffing, consultancy, and related services provided by Matrix Recruitment Limited. </p>
+                                <h6> Introduction </h6>
+                                <p> Matrix Recruitment Limited (“we”, “our”, or “us”) is committed to protecting the privacy and security of your personal information. This Privacy Policy outlines how we collect, use, store, and protect your data in accordance with the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018. </p>
                             </li>
 
                             <li>
-                                <h6> Use Of Website </h6>
-                                <p> You agree to use this website only for lawful purposes and in accordance with these terms. </p>
-                                <p> You must not misuse our website by introducing viruses or other malicious content. </p>
-                                <p> Content on this site is provided for general information only. We reserve the right to update or remove content without notice. </p>
+                                <h6> Who We Are </h6>
+                                <p> <b> Company Name: </b> Matrix Recruitment Limited </p>
+                                <p> <b> Registered Address: </b> 107-109, the arcade, stratford. East London. </p>
+                                <p> <b> Contact Email: </b> <a href="mailto:info@matrixrecruitment.org"> info@matrixrecruitment.org </a> </p>
+                                <p> <b> Telephone: </b> <a href="tel:+447463401030"> +44-746-340-1030 </a> </p>
                             </li>
 
                             <li>
-                                <h6> Recruitment Services - Clients </h6>
-                                <p> Matrix Recruitment Limited agrees to source and introduce candidates based on your requirements. </p>
-                                <p> All introductions are confidential. If a candidate is engaged (employed or contracted) within 12 months of our introduction, our placement fees apply. </p>
-                                <p> Clients are responsible for verifying the suitability, qualifications, and references of candidates. </p>
-                                <p> Fees, terms of payment, and guarantees are outlined in our client service agreement. </p>
+                                <h6> What Data We Collect </h6>
+                                <em> We may collect the following personal data: </em>
+                                <p class="shift-down-a-lil"> Full name, date of birth, contact details (email, phone, address) </p>
+                                <p> National Insurance number, right to work documentation </p>
+                                <p> CVs, employment history, references, education details </p>
+                                <p> Job preferences, interview notes, and feedback </p>
+                                <p> Criminal record checks (if required by clients) </p>
+                                <p> Bank account details (if placed for payroll) </p>
+                                <p> Emergency contact information </p>
                             </li>
 
                             <li> 
-                                <h6> Recruitment Services - Candidates </h6>
-                                <p> We do not charge candidates for seeking employment through us. </p>
-                                <p> By submitting your CV or application, you consent to us storing your data and sharing it with prospective employers. </p>
-                                <p> We do not guarantee job placement or interviews. </p>
-                                <p> It is your responsibility to ensure your CV and information are accurate and truthful. </p>
+                                <h6> How We Collect Your Data </h6>
+                                <p> Directly from you via forms, emails, or interviews </p>
+                                <p> From third parties, such as referees, job boards, or clients </p>
+                                <p> Through our website or job application platforms </p>
                             </li>
 
                             <li> 
-                                <h6> Confidentiality </h6>
-                                <p> All parties agree to maintain confidentiality with respect to any proprietary or personal information shared in the course of our recruitment services. </p>
+                                <h6> Why We Process Your Data </h6>
+                                <em> We collect and process your data for the following reasons: </em>
+                                <p class="shift-down-a-lil"> To match you with suitable job opportunities </p>
+                                <p> To communicate with you about vacancies and updates </p>
+                                <p> To carry out right to work and background checks </p>
+                                <p> To comply with legal obligations and industry regulations </p>
+                                <p> For payroll and payment processing (where applicable) </p>
+                                <p> To manage our business relationship with you and our clients </p>
                             </li>
 
                             <li>
-                                <h6> Intellectual Property </h6>
-                                <p> All content on our website (including text, graphics, logo, and layout) is the property of Matrix Recruitment Limited. Reproduction is prohibited without prior written consen </p>
+                                <h6>  Legal Basis for Processing </h6>
+                                <em> We process your data based on: </em>
+                                <p class="shift-down-a-lil"> Consent – when you voluntarily submit your CV or application </p>
+                                <p> Contract – to place you in employment or temporary roles </p>
+                                <p> Legal obligation – to comply with employment laws and HMRC </p>
+                                <p> Legitimate interests – to operate and improve our recruitment services </p>
                             </li>
 
                             <li> 
-                                <h6> Data Protection and Privacy </h6>
-                                <p> We handle your personal data in accordance with our [Privacy Policy] and the UK General Data Protection Regulation (UK GDPR). You have the right to access, rectify, or delete your personal information at any time. </p>
+                                <h6> Data Sharing </h6>
+                                <em> We may share your data with: </em>
+
+                                <p class="shift-down-a-lil"> Prospective employers and clients </p>
+                                <p> Background check providers </p>
+                                <p> Payroll and umbrella companies </p>
+                                <p> IT and cloud service providers </p>
+                                <p> Regulatory authorities when legally required </p>
+                                <p> We ensure all third parties respect the security of your data and comply with UK data protection laws. </p>
                             </li>
 
                             <li>
-                                <h6> Limitation of Liability </h6>
-                                <p> Matrix Recruitment Limited shall not be liable for any loss or damage arising from your use of our website or recruitment services, except where such liability cannot be excluded by law. </p>
+                                <h6> Data Retention </h6>
+                                <em> We retain your data: </em>
+
+                                <p class="shift-down-a-lil"> For as long as necessary to fulfill the purposes for which we collected it </p>
+                                <p> Typically for up to 6 years after your last interaction with us </p>
+                                <p> You may request deletion of your data at any time unless we are legally required to retain it </p>
                             </li>
 
                             <li>
-                                <h6> Termination </h6>
-                                <p> We reserve the right to suspend or terminate access to our website or services at our discretion, including if you breach these terms. </p>
+                                <h6> Your Rights </h6>
+                                <em> Under the UK GDPR, you have the right to: </em>
+
+                                <p class="shift-down-a-lil"> Access the personal data we hold about you </p>
+                                <p> Request correction of inaccurate or incomplete data </p>
+                                <p> Request deletion of your data (“right to be forgotten”) </p>
+                                <p> Object to or restrict processing in certain circumstances </p>
+                                <p> Data portability </p>
+                                <p> Withdraw your consent at any time (where applicable) </p>
+                                <p> <b> To exercise these rights, contact us at: </b> <a href="mailto:info@matrixrecruitment.org"> info@matrixrecruitment.org </a> </p>
                             </li>
 
                             <li>
-                                <h6> Governing Law and Jurisdiction </h6>
-                                <p> These terms are governed by the laws of England and Wales. Any disputes will be subject to the exclusive jurisdiction of the English courts. </p>
+                                <h6> Security of Your Data </h6>
+                                <p> We use appropriate technical and organisational measures to secure your personal information from unauthorised access, loss, or misuse. </p>
                             </li>
 
                             <li>
-                                <h6> Changes to These Terms </h6>
-                                <p> We may revise these Terms and Conditions from time to time. Any changes will be posted on this page and, where appropriate, notified by email. </p>
+                                <h6> Cookies and Website Use </h6>
+                                <p> If our website uses cookies, we will notify you and allow you to manage your preferences in accordance with our Cookie Policy. </p>
+                            </li>
+
+                            <li>
+                                <h6> Changes to This Policy </h6>
+                                <p> We may update this Privacy Policy periodically. The latest version will always be available on our website. </p>
+                            </li>
+
+                            <li>
+                                <h6> Contact Us </h6>
+                                <em> If you have questions or concerns about this Privacy Policy or your data, contact: </em>
+                                <p class="shift-down-a-lil"> Data Protection Officer </p>
+                                <p> Matrix Recruitment Limited </p>
+                                <p> <b> Email: </b> <a href="mailto:info@matrixrecruitment.org"> info@matrixrecruitment.org </a> </p>
+                                <p> <b> Phone: </b> <a href="tel:+447463401030"> +44-746-340-1030 </a> </p>
                             </li>
                         </ul>
 
