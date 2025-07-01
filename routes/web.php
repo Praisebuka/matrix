@@ -47,6 +47,7 @@ Route::get('/email-testing', function () {
 });
 
 Route::get('/faq', [HomeController::class, 'faq'])->name('faq');
+Route::get('/terms', [HomeController::class, 'termsAndCondition'])->name('terms and conditions');
 
 
 require __DIR__.'/auth.php';

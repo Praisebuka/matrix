@@ -79,6 +79,12 @@ class HomeController extends Controller
 
         return view('home.faq')->with(['url' => $this->getUrlEndSideParam()]);
     }
+    
+    public function termsAndCondition()
+    {
+
+        return view('home.terms_and_conditions')->with(['url' => $this->getUrlEndSideParam()]);
+    }
 
 
 }
