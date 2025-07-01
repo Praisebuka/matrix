@@ -18,7 +18,7 @@
                         
                         <br> <br>
                         <div class="contact__description">
-                            SUPPORT: <p> +234-074-634-01030 </p>
+                            SUPPORT: <p> +44-746-340-1030 </p>
                         </div>
                     </div>
 
