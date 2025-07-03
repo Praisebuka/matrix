@@ -177,7 +177,7 @@
                         
                         <div class="place__content">
                             <span class="place__rating">
-                                <span class="place__rating-number"> MRL </span>
+                                {{-- <span class="place__rating-number"> MRL </span> --}}
                             </span>
 
                             <div class="place__data">
@@ -193,7 +193,7 @@
                         
                         <div class="place__content">
                             <span class="place__rating">
-                                <span class="place__rating-number"> Google </span>
+                                {{-- <span class="place__rating-number"> Google </span> --}}
                             </span>
 
                             <div class="place__data">
@@ -209,7 +209,7 @@
                         
                         <div class="place__content">
                             <span class="place__rating">
-                                <span class="place__rating-number"> MRL </span>
+                                {{-- <span class="place__rating-number"> MRL </span> --}}
                             </span>
 
                             <div class="place__data">
@@ -226,7 +226,7 @@
                         
                         <div class="place__content">
                             <span class="place__rating">
-                                <span class="place__rating-number"> Google </span>
+                                {{-- <span class="place__rating-number"> Google </span> --}}
                             </span>
 
                             <div class="place__data">
@@ -242,7 +242,7 @@
                         
                         <div class="place__content">
                             <span class="place__rating">
-                                <span class="place__rating-number"> HipheDavids </span>
+                                {{-- <span class="place__rating-number"> HipheDavids </span> --}}
                             </span>
 
                             <div class="place__data">
