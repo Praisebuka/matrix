@@ -18,7 +18,7 @@
                         
                         <br> <br>
                         <div class="contact__description">
-                            SUPPORT: <p> +44-746-340-1030 </p>
+                            SUPPORT: <a href="tel:07463401030"> 0746-340-1030 </a>
                         </div>
                     </div>
 

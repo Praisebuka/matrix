@@ -53,7 +53,7 @@
 
                             <li>
                                 <h6> Intellectual Property </h6>
-                                <p> All content on our website (including text, graphics, logo, and layout) is the property of Matrix Recruitment Limited. Reproduction is prohibited without prior written consen </p>
+                                <p> All content on our website (including text, graphics, logo, and layout) is the property of Matrix Recruitment Limited. Reproduction is prohibited without prior written consent </p>
                             </li>
 
                             <li> 
