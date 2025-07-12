@@ -1,6 +1,7 @@
 <header class="header" id="header">
     <nav class="nav container">
-        <a href="{{ route('Home') }}" class="nav__logo"> Matrix Recruitment </a>
+        {{-- <a href="{{ route('Home') }}" class="nav__logo"> Matrix Recruitment </a> --}}
+        <a href="{{ route('Home') }}" class="nav__logo"> <img src="{{ asset('assets/img/logo/mrl_logo.jpg') }}" alt="" style="width: 100px"> </a>
 
         <div class="nav__menu" id="nav-menu">
             @if ($url === 'about')
