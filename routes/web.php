@@ -51,5 +51,7 @@ Route::get('/terms', [HomeController::class, 'termsAndCondition'])->name('terms 
 Route::get('/privacy', [HomeController::class, 'privacyAndPolicy'])->name('privacy and policy');
 Route::get('/partners', [HomeController::class, 'partners'])->name('become a partner');
 
+Route::get('/pricing', [HomeController::class, 'pricing'])->name('plans and pricing');
+
 
 require __DIR__.'/auth.php';

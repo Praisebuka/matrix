@@ -98,5 +98,10 @@ class HomeController extends Controller
         return view('home.partners')->with(['url' => $this->getUrlEndSideParam()]);
     }
 
+    public function pricing()
+    {
+        return view('home.pricing')->with(['url' => $this->getUrlEndSideParam()]);
+    }
+
 
 }
